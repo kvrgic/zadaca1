@@ -1,0 +1,118 @@
+#cv{
+    margin: 0px auto;
+    width: 1020px;
+    border: 2px solid gray;
+    border-left: 40px solid gray;   
+}
+body{
+    background-color: gainsboro;
+}
+/*Header*/
+header{
+    background-color:gainsboro;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 4px solid gray;     
+}
+.dio1{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+.dio2{
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+}
+.dio3{
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+}
+header h1{
+    font-size: 64px;
+    padding: 0;
+    margin: 0;
+    border-right: 3px dotted black;
+}
+pre{
+    font-size: 130%;
+    margin-left: 20px;
+    padding: 0px;
+    text-align: justify;  
+    font-weight: bold;
+}
+header img{
+    width: 150px;
+    height: auto;
+    border: 6px solid white;
+    padding: 2px;
+    box-shadow: border-box;
+    border-radius: 50%;  
+}
+
+/*ASIDE*/
+aside{
+    /*display: inline-block;*/
+    width: 25.5%;
+    text-align: left;
+    background-color: gainsboro;
+    border-right: 3px dotted black;
+    padding: 10px;
+    box-sizing: border-box;    
+}
+.sec{
+    margin:10px 0px;
+    margin-bottom: 40px;
+}
+th{
+    padding: 5px;
+}
+td{
+    font-size: 110%;
+    text-align: left;
+}
+aside h2{
+    border-bottom: 1px solid black;
+}
+meter{
+    width: 20%;
+    height: 20px;
+}
+.rv td{
+    width: 150px;
+}
+
+/*MAIN*/
+#sadrzaj{
+    display: flex;
+    background-color: white;
+}
+main{
+    /*display: inline-block;*/
+    width: 70%;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: justify;
+    vertical-align: top;
+}
+.sec1{
+    text-align: center;
+    font-size: 115%;
+}
+
+.vr{
+    border-right: 2px dotted black;
+    width: 22%;
+}
+.obrazovanje td{
+    padding-left: 10px;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    border-top: 4px solid gray;
+}
